@@ -53,6 +53,21 @@ The database consists of **17 tables** that manage various aspects of warehouse 
 - **Optimize Supplier Performance**: Explore opportunities to reduce fulfillment times and negotiate better terms with suppliers.
 - **Database Stress Testing**: Ensuring the database can handle high transaction volumes while maintaining data integrity and performance was a key challenge. The database was rigorously tested for **1NF (First Normal Form)** compliance to eliminate redundancy and improve efficiency.
 
+--
+
+## Challenges Faced
+
+1. **Database Design Complexity**:
+   - Designing a database with 17 tables and ensuring proper normalization (1NF compliance) was a significant challenge. The database had to be structured to eliminate redundancy while maintaining efficient performance.
+
+2. **Stress Testing**:
+   - Simulating high transaction volumes to test the database's performance under load was challenging. The stress testing script had to ensure that the database could handle concurrent operations without data corruption or performance degradation.
+
+3. **Data Integrity**:
+   - Ensuring data integrity across multiple tables with foreign key constraints required careful planning and testing. The CRUD operations had to be designed to maintain consistency across related tables.
+
+---
+
 
 ## Conclusion
 
